@@ -1,0 +1,27 @@
+.aboutme{
+    background-color: black;   
+}
+.container{
+    border: solid 2px coral;
+    border-radius: 20px;
+    margin: 0px 2rem;
+    font-size: 3rem;
+}
+.title{
+   font-family: 'Caesar Dressing', cursive;
+   color: rgb(255, 102, 0);
+   font-size: 50px;
+   margin: 20px;   
+}
+.descriptionBox{
+    display: flex;
+    color: blanchedalmond;
+    margin: 10px 20px;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    border-radius: 25%;
+    height: 300px;
+}

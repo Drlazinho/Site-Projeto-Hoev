@@ -1,0 +1,56 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    z-index: 9999;
+}
+
+.topLeft,.topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.topCenter{
+    flex: 6;
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(253, 80, 0);
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.topListItem:hover{
+    color: tomato;
+    padding-top: 2px;
+}
+
+.searchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
